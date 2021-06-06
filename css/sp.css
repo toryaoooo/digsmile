@@ -1,0 +1,105 @@
+/*SP版の記*/
+@media screen and (max-width: 768px) {
+/* ----------------------- */
+/* base_sp
+/* ----------------------- */
+body {
+  font-size: 1.4rem;
+}
+.section-wrapper {
+  padding: 40px 0;
+}
+/* ----------------------- */
+/* header-sp
+/* ----------------------- */
+.site-title {
+  width: 180px;
+  top: 21px;
+}
+.burger-btn {
+ top: 28px;
+}
+.header-nav {
+  width: 67.7vw;
+}
+/* ----------------------- */
+/* fv_sp
+/* ----------------------- */
+.copy-wrapper {
+  right: -15%;
+  transform: translate(0,-50%);
+}
+.copy-jp {
+  font-size: 1.6rem;
+}
+.copy-company {
+  font-size: 1.6rem;
+}
+.main-copy {
+  font-size: 5.4rem;
+}
+/* ----------------------- */
+/* section_about_sp
+/* ----------------------- */
+.section-wrapper:first-of-type {
+  padding: 80px 0 4vw;
+}
+.content-wrapper.about-bg {
+  padding: 50px 4vw;
+}
+.about-content {
+  margin: 0 auto;
+}
+/* ----------------------- */
+/* section_works_sp
+/* ----------------------- */
+.l-section-wrapper {
+  padding: 40px 0;
+}
+.l-content-wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 4vw;
+}
+.s-section-wrapper {
+  width: 520px;
+  max-width: 100%;
+}
+.s-section-wrapper:first-of-type {
+  margin-bottom: 80px;
+}
+/* ----------------------- */
+/* section_topics_sp
+/* ----------------------- */
+.topics-title{
+  font-size: 1.2rem;
+}
+.topics-item{
+  margin-bottom: 20px;
+}
+.ml-auto{
+  margin-left: 0;
+}
+/* ----------------------- */
+/* section_contact_sp
+/* ----------------------- */
+.content-wrapper {
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  padding: 0 4vw;
+}
+.contact-content {
+  width: 440px;
+  max-width: 100%;
+  margin-top: 30px;
+}
+.contact-img-wrapper {
+  width: 520px;
+  max-width: 100%;
+}
+.section-wrapper:last-of-type {
+  padding-bottom: 80px;
+}
+
+
+}
